@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>P&aacute;gina 4</title>
+<link rel="stylesheet" href="style.css">
+  
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https: //fonts.googleapis.com/css2? family= ADLaM+Display & family= Kanit & family= Montserrat:ital,wght@0,100;0,300;1,300 & display=swap"rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Kanit&family=Montserrat:ital,wght@0,100;0,300;1,300&family=Nunito+Sans:opsz,wght@6..12,200&family=Raleway:ital,wght@0,100;1,200&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+<link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+  <script src="main.js"></script>
+  
+  
+  <style>
+   
+  .img-1{
+           width: 388px;
+           margin: -8px;
+         }
+         
+  .conteudo-principal{
+                        border: 2px solid red;
+                        margin: -8px;
+                        width: 385px;
+                        background-color: rgb(255,0,0);
+                      }
+  
+  .titulo-01{
+               font-family: 'Anybody';
+               text-align: center;
+               font-size: 30px;
+               color: #ffffff;
+       
+              }
+              
+   #icon-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -20px;
+            font-size: 40px;
+            color: #FFFFFF;
+     
+             }
+             
+             
+   .text-01{
+            text-align: center;
+            line-height: 30px;
+            font-weight: 10;
+            font-family: 'Anybody';
+            color: #FFFFFF;
+              }
+              
+  .container-02{
+                display: flex;
+                justify-content: space-evenly;
+              
+                  }
+                  
+  .numbers{
+           font-size: 30px;
+           font-family: 'Anybody';
+           font-weight: 500;
+           margin-top: 40px;
+           letter-spacing: 12px;
+           color: #ffffff;
+                   }
+                   
+  .paragrapho{
+              text-align: center;
+              margin: 8px;
+              letter-spacing: 3px;
+              font-size: 15px;
+              color: #ffffff;
+               
+              }
+  .custom-animation{
+                    animation-duration: 2s;
+         
+                   }
+                   
+                   
+   @media screen and (min-width: 768px){
+      
+   section, article{
+                    margin-left: 11.33%;
+                   }
+   .conteudo-principal{
+      width: 49.77rem;
+      height: 80rem;
+   }
+   
+   .img-1{
+      height: 30rem;
+      width: 50rem;
+   }
+   
+    .paragrapho{
+      margin-top: 15%;
+      font-size: 1rem;
+      }
+      
+      .text-01{
+         margin-top: 10rem;
+         margin-bottom: 10rem;
+         font-weight: 600;
+         font-size: 2rem;
+         line-height: 4rem;;
+      
+      }
+      .titulo-01{
+         font-size: 3rem;
+      }
+      
+      #icon-1{
+         font-size: 5rem;
+      }
+      
+      .logo{
+         margin-left: 5.6rem;
+      }
+      
+      #icon{
+         margin-right: 4rem;
+      }
+      
+   }
+      
+     
+  </style>
+  
+<body>
+   <header>
+         <h1 class="logo">logo</h1>
+         <nav>
+            <span id="icon" class="material-icons">list</span>
+            <ul class="list">
+               <li class="pag-1"><a href="Home.html">Home</a></li>
+             </ul>
+         </nav>
+      </header>
+      
+      <section>
+         <img class="img-1" src="./img/woman.jpg" alt="mulher levantando peso">
+      </section>
+      
+      <section>
+         <article class="conteudo-principal">
+            
+            <h1 class="titulo-01 animate__animated animate__slideInDown
+                 custom-animation">
+               Gym and<br>
+               Fitness
+            </h1>
+             <span id="icon-1" class="material-symbols-outlined animate__animated animate__zoomIn animate__delay-0.60s">
+               water</span>
+               <p class="text-01">Duis aute irure dolor in<br> reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla<br> pariatur. Excepteur sint occaecat<br> cupidatat non proident</p>
+               
+               <p><span class="container-02 numbers">350 16 08</span></p>
+               <p class="paragrapho">MEMBERS CLASSES AWARDS</p>
+               
+          </article>
+      </section>
+      
+      
+      
+      
+<script src="main.js"></script>
+  
+ <script>
+   var icon = document.getElementById('icon');
+     
+     var list = document.querySelector('.list');
+     
+     icon.addEventListener('click', function() {
+     
+        var listItem = document.createElement('li');
+     
+        listItem.textContent = '';
+     
+        list.appendChild(listItem);
+     });
+     
+     
+  
+</script>
+  
+  
+  
+</body>
+
+</html>

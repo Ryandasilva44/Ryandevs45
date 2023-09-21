@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Home</title>
+ 
+  <link rel="stylesheet" href="style.css">
+  
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https: //fonts.googleapis.com/css2? family= ADLaM+Display & family= Kanit & family= Montserrat:ital,wght@0,100;0,300;1,300 & display=swap"rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Kanit&family=Montserrat:ital,wght@0,100;0,300;1,300&family=Nunito+Sans:opsz,wght@6..12,200&family=Raleway:ital,wght@0,100;1,200&display=swap" rel="stylesheet">
+  
+<link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   
+    
+</head>
+  <style>
+  
+      .titulo{
+              font-family: 'Anybody';
+              font-size: 25px;
+              font-weight: 600;
+              color: #ff0000;
+              text-decoration: underline;
+              text-decoration-thickness: 7px;
+              margin-left: 15px;
+               
+              }
+              
+              
+      .titulo1{
+                font-style: italic;
+                font-weight: bold;
+                margin-left: 15px;
+                margin-top: -30px;
+                
+         
+         
+              }
+              
+    .principal{
+                font-weight: 300;
+                text-align: center;
+                line-height: 24px;
+                font-style: italic;
+                margin-top: -20px;
+              }
+              
+              
+          .box{
+               background-image: linear-gradient(23deg,white,grey,white);
+              }
+              
+              
+ .box1, .box2, .box3{
+                     margin-left: 150px;
+                     font-size: 70px;
+                     color: #ffffff
+                    }
+                    
+         .centro{
+                 text-align: center;
+                 margin-top: -4px;
+                 color: #ffffff;
+                 
+                 }
+       
+     .containers{
+                margin-top: 20px;
+                background-image: linear-gradient(45deg,#ff0000,#000000);
+               
+                    }
+                    
+                    
+  @media screen and (min-width:  768px){
+         
+          
+          .container1{
+             max-width: 30rem;
+             height: 70rem;
+             margin-top: 2rem;
+             text-align: center;
+          }
+          .containers{
+             max-width: 60rem;
+             max-height: 30rem;
+             margin: 1%;
+             
+          }
+          .box1, .box3{
+             display: flex;
+             justify-content: center;
+             align-content: center;
+             left: -3%;
+              
+          }
+          
+          .centro{
+             font-size: 2rem;
+             top: 3%;
+          }
+          
+          .pag-1{
+             font-size: 2rem;
+             width: 6rem;
+          }
+        
+        #center1{
+           height: 12rem;
+        }
+        
+        #centro-1{
+           margin: 6%;
+        }
+        
+        
+        #box3-03{
+           margin: 9%;
+           
+        }
+         
+          
+  }
+      
+         
+          
+     
+  </style>
+
+<body>
+   <header>
+        
+      <h1 class="logo">logo</h1><br>
+  <nav>
+           <span id="icon" class="material-icons">list</span>
+           <ul class="list">
+              <li class="pag-1"><a href="index.html">in&iacute;cio</a></li>
+      
+           </ul>
+        </nav>
+        </header>
+ 
+      <section class="box container1">
+         
+      <p class="titulo animate__animated animate__fadeInLeft animate__delay-1s">Life is Motion</p><br>
+      
+      <p  class="titulo1 animate__animated animate__fadeInRight animate__delay-1s">Gyms , Day Spas , Traniners</p><br>
+      
+      <p class="principal animate__animated animate__zoomIn animate__delay-1s">In this day in age, keeping fit has become<br> one of the top activities for someone to do in their free time. A popular way to stay in shape is by going to the gym, with multiple different types of workouts you can do, from weight lifting to  light cardio.</p><br>
+      
+      <button class="btn-1">README  MORE</button><br>
+   
+         <img src="./img/personal.png" alt="personal trainer man">
+      </section>
+            
+            <section class="containers">
+            <i class="box1"><ion-icon   class="animate__animated animate__pulse animate__infinite animate__delay-3s"  name="barbell-outline"></ion-icon></i><br>
+            <p class="centro">Personal</p>
+            </section>
+            
+            <section  class="containers">
+               
+             <marquee direction="right"><i class="box2"><ion-icon name="bicycle-outline"></ion-icon></i><br></marquee>
+              <p class="centro  animate__animated animate__slideInUp animate__delay-3s">Spinning</p>
+            </section>
+             
+             <section id="center1" class="containers">
+            <marquee behavior="right"><i id="box-03"   class="box3"><ion-icon  class="animate__animated animate__bounce animate__infinite"    name="ellipse-outline"></ion-icon></i></marquee>
+            <p  id="centro-1" class="centro">Pilates</p>
+             </section>
+            
+            
+            
+         
+ <script src="main.js"></script>
+  
+ <script>
+      var icon = document.getElementById('icon');
+    
+      var list = document.querySelector('.list');
+    
+      icon.addEventListener('click', function(){
+       
+      var listItem = document.createElement('li');
+      
+      listItem.textContent = '';
+      
+      list.appendChild(listItem);
+    
+      });
+      
+  </script>
+  
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
